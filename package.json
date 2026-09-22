@@ -1,0 +1,15 @@
+{
+  "name": "servidor-http",
+  "version": "1.0.0",
+  "description": "Servidor HTTP do zero sobre node:http: roteador com parâmetros, cadeia de middleware, corpo, cookies e arquivos estáticos.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test \"testes/*.test.js\""
+  },
+  "keywords": ["http", "servidor", "roteador", "middleware"],
+  "author": "condeDeveloper",
+  "license": "MIT"
+}
