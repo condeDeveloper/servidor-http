@@ -7,7 +7,7 @@
   "exports": "./src/index.js",
   "engines": { "node": ">=20" },
   "scripts": {
-    "test": "node --test \"testes/*.test.js\""
+    "test": "node --test testes/*.test.js"
   },
   "keywords": ["http", "servidor", "roteador", "middleware"],
   "author": "condeDeveloper",
